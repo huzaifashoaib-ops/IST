@@ -1,3 +1,24 @@
-https://colab.research.google.com/drive/1ZWrcq-OYb6cFr9O644HnQb-H_uTIwl-l?usp=sharing
+#lab task
+import numpy as np
 
-#google colab link to queue sesson
+class queue:
+  def __init__ (self):
+    self.element=np.arange(1)
+    
+  def display(self):
+    return self.element
+
+  def enqueue(self, data):
+    x=np.append(self.element,data)
+    return x
+
+  def dequeue(self,data):
+    self.element.delete(data(0))
+  
+  
+  
+  q=queue()
+  
+  q.display()
+  
+  q.enqueue(5)
